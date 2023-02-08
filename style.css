@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Roboto;
+  src: url("Roboto-Regular.ttf") format("truetype");
+}
+
 body {
   background: rgb(10, 38, 71);
   display: flex;
@@ -7,7 +12,6 @@ body {
 
 h1 {
   font-family: "Roboto";
-  src: url("./Roboto-Regular.ttf") format('truetype');
   font-size: 10rem;
   color: rgb(44, 116, 179);
 }
