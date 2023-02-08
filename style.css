@@ -1,0 +1,15 @@
+body {
+  background: rgb(10, 38, 71);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Roboto";
+  src: url("Roboto-Regular.ttf");
+  font-size: 10rem;
+  color: rgb(44, 116, 179);
+}
+
+
