@@ -6,7 +6,7 @@ const horaactual = () => {
   let hora = date.getHours();
   let minutos = date.getMinutes();
   let segundos = date.getSeconds();
-  return `${hora} : ${minutos} : ${segundos}`;
+  return `${hora}:${minutos}:${segundos}`;
 };
 
 const horamostrar = () => {
