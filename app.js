@@ -1,11 +1,12 @@
 const clock = document.querySelector("#clock");
 
+const number = (number) => (`${number}`.length < 2 ? `0${number}` : number);
+
 const horaactual = () => {
   const date = new Date();
-
-  let hora = date.getHours();
-  let minutos = date.getMinutes();
-  let segundos = date.getSeconds();
+  const hora = number(date.getHours());
+  const minutos = number(date.getMinutes());
+  const segundos = number(date.getSeconds());
   return `${hora}:${minutos}:${segundos}`;
 };
 
